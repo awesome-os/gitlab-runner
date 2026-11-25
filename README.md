@@ -98,3 +98,13 @@ Visit the [Changelog](CHANGELOG.md) to view recent changes.
 ## License
 
 This code is distributed under the MIT license, see the [LICENSE](LICENSE) file.
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/gitlab-runner@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://go/gitlab-runner?from=repository://github.com/awesome-os/gitlab-runner@main"
+```
